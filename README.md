@@ -9,7 +9,18 @@ npm i jest
 
 # add autoComplete jest code 
 npm @types/jest
+
+# show coverage test
+jest --coverage
 ```
+
+## Problems and Solution
+
+- auto Complete not enable?
+  - `npm @types/jest`
+
+-  show `command 'python.refreshTests' not found`  on [jest extension](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest)
+   - Click `Ctrl + shift + p` and `>python: configure tests`
 
 ## Best Links for Learn 
 

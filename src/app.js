@@ -1,3 +1,6 @@
-const checkInt = number => !isNaN(parseInt(number, 10))
+const isInteger = require('./isInteger')
 
-module.exports = checkInt
+const checkInt18 = number => isInteger(number) && number >= 18
+
+module.exports = checkInt18
+
